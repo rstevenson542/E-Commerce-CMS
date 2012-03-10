@@ -1,0 +1,7 @@
+<h1>All the shops</h1>
+
+<ul>
+  <% @shops.each do |shop| %>
+  <li><%= link_to shop.name, shop %></li>
+  <% end %>
+</ul>

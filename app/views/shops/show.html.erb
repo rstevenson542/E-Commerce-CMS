@@ -1,0 +1,12 @@
+<% @shop.products.each do |product| %>
+    <ul id="featured-grid" class="product-grid wide">
+      <li id="product generated-height" style="height: 398px;">
+        <p class="product-photo"></p>
+        <div class="product-information" style="height: 138px;">
+          <h3><%= link_to product.name, shop_product_path(@shop, product) %></h3>
+          <p><%= product.description %></p>
+        </div>
+      </li>           
+    </ul>                
+<% end %>
+
