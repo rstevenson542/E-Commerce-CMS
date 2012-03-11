@@ -1,0 +1,51 @@
+.clearfix {
+	display: block;
+}
+
+.footer {
+	clear: both;
+	padding: 40px 40px 120px;
+	margin-top: 20px;
+	border-top: 3px solid #F2F2F2;
+	margin-right: -40px;
+	margin-left: -40px;
+}
+
+.footer .block {
+	float:left;
+	width:205px;
+	margin-right:20px;
+}
+
+.footer .block h4 {
+	margin-bottom: 15px;
+	font-size: 100%;
+	font-family: 'Open Sans', sans-serif;
+	color: silver;
+}
+
+.footer .block li {
+	display: block;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 14px;
+	font-weight: 100;
+	text-transform: capitalize;
+	padding: 5px 0;
+}
+
+.footer .block ul li a {
+	text-decoration: none;
+	outline: none;
+	color: #444;
+	font-color: black !important;
+}
+
+div.block li {
+	clear:left;
+	float:left;
+	width: 205px;
+	border-top: 1px solid #F1F1F1;
+	font-weight: bold;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}

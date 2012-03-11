@@ -1,0 +1,53 @@
+.clearfix {
+	display: block;
+}
+
+div.banner {
+	float: left;
+}
+
+.banner {
+	background: white;
+	max-width: 900;
+	margin-bottom: 20px;
+	width: 900px;
+	position: relative;
+}
+
+#product .banner > div.image {
+	float: left;
+	padding: 70px 0;
+}
+
+.banner div.image {
+	width: 370px;
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+}
+
+.banner div.image a{
+	display: block;
+}
+
+a {
+	color: #444;
+	outline: none;
+}
+
+#product .thumbs a {
+	display: block;
+	float: right;
+	margin: 10px 0 0 10px;
+}
+
+#product .banner > div.details {
+	float:right;
+	padding-top: 70px;
+}
+
+.banner div.details {
+	width: 510px;
+	padding: 50px 20px;
+	line-height: 22px;
+}

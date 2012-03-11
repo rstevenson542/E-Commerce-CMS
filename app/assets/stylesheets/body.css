@@ -14,6 +14,7 @@ div#sub_navigation {
 #sub_navigation h4 {
 	font-size: 160%;
 	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
 }
 
 div#sub_navigation ul#links {
@@ -34,3 +35,7 @@ h4 ul#links a {
 	margin-top: 2px;
 }
 
+div#main_navigation a, div#sub_navigation a {
+	color: silver;
+	font-size: .5em;
+}

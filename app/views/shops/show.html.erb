@@ -1,15 +1,21 @@
 <% @shop.products.each do |product| %>
-    <div class="product">  
-        <div class="image">        
-    
-        </div image>
-        <div class="details">
-          <a><%= link_to product.name, shop_product_path(@shop, product) %>
-            <span class="price">
-              <h4><%= number_to_currency product.price %></h4>
-            </span>
-          </a>
-        </div details>  
-    </div product>                 
+  <div id="collection">
+    <div class="outer">
+      <div id="products" class="products clearfix">
+        <div class="row clearfix">
+          <div class="product">  
+            <div class="image">        
+            </div image>
+              <div class="details">
+                <a><%= link_to product.name, shop_product_path(@shop, product) %>
+                  <span class="price">
+                    <h4><%= number_to_currency product.price %></h4>
+                  </span>
+                </a>
+              </div details>  
+          </div product>  
+        </div row>
+      </div outer>
+    </div collection>               
 <% end %>
 

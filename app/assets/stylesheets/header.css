@@ -1,13 +1,14 @@
 div.header.clearfix {
-	margin-top: 35px;
+	margin-top: 65px;
 	margin-bottom: 35px;
+	border-bottom: 3px solid #F2F2F2;
 }
 
 div.header{
 	margin: -40px;
 	border-width: 3px;
 	padding-bottom: 35px;
-	border-bottom: 3px solid #F2F2F2;
+	
 	padding-right: 40px;
 	padding-left: 40px;
 }
@@ -21,6 +22,7 @@ div.header{
 }
 
 .fl {
+	display: block;
 	float: left;
 }
 
@@ -45,27 +47,10 @@ h3 ul#links a {
 	margin-top: 2px;	
 }
 
-div#main_navigation a, div#sub_navigation a {
-	color: silver;
-	font-size: .5em;
-}
 
 div#main_navigation a{
 	font-size: 16px;
 }
-
-#main_navigation h3 ul li a:hover, #main_navigation h3 ul li a:active {
-	background-color: yellow;
-	border-top: 3px solid #silver;
-	border-bottom: 3px solid #silver;
-}
-
-#main_navigation h3 ul li a:active {
-	border-top: 3px solid #silver;
-	border-bottom: 3px solid #silver;
-}
-
-
 
 
 div.box {
