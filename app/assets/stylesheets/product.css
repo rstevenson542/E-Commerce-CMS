@@ -1,0 +1,41 @@
+
+
+.products .product {
+	float: none;
+	width:225px;
+	max-width:205px;
+	margin: 0px 20px 20px 0;
+}
+
+.products .product .image img {
+	width: 225px;
+	max-height: 420px;
+}
+
+.products .product .details {
+	text-align: center;
+	font-weight: 500;
+}
+
+.products .product .details a{
+	display: block;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	text-align: left;
+	color: #212121 !important;
+	border-bottom: 3px solid #F1F1F1;
+	padding: 10px 2px 5px;
+}
+
+span.price h4 {
+	font-family: 'Economica', sans-serif;
+	text-align:right;
+	color: silver;
+	margin-bottom: 5px;
+	margin-left: -10px;
+	padding-top: 10px;
+	padding-left: 10px;
+	margin-top: -35px;
+	margin-right: -10px;
+	padding-right: 10px;
+	font-size: 1.2em;
+}

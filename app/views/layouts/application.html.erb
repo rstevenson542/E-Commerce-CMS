@@ -1,14 +1,67 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link href='http://fonts.googleapis.com/css?family=Economica:700|Lobster|Yanone+Kaffeesatz|Terminal+Dosis:700|Open+Sans:300' rel='stylesheet' type='text/css'>
     <title>ShopifyApp</title>
       <%= stylesheet_link_tag    "application", :media => "all" %>
       <%= javascript_include_tag "application" %>
       <%= csrf_meta_tags %>
   </head>
-  <body>
-    <%= yield %>
-    
+  <body id="top">
+      <div class="wrapper">
+          <div class= "header clearfix">
+            <div class="fl" style="width:320px; padding:none;">
+              <div class="logo">
+                <a href>"insert logo here"</a>
+              </div logo>
+            </div fl>
+            <div id="main_navigation">
+              <h3>
+                <ul id="links">
+                  <li class="link-1">
+                    <a href><%= link_to "Shop", %></a>
+                  </li>
+                  <li class="link-2">
+                    <a href>Blog</a>
+                  </li>
+                  <li class="link-3">
+                    <a href>About</a>
+                  </li>
+                </ul links>
+              </h3>
+            </div>
+            <div id="cart">
+              <div class="box">
+                <div class="fl">
+                  <span class="value">
+                    <h3><a href>Cart</a></h3>
+                  </span value>
+                </div fl>
+              </div box>
+            </div cart>
+          </div header>
+          <div class="body clearfix">
+            <div id="sub_navigation">
+              <h4>
+                <ul id="links">
+                  <li><a><%= link_to 'All Products' %></a></li>
+                  <li><a><%= link_to 'Denim' %></a></li>
+                  <li><a><%= link_to 'Shirts' %></a></li>
+                  <li><a><%= link_to 'Jewelry' %></a></li>
+                  <li><a><%= link_to 'Hats' %></a></li>
+                </ul>
+              </h4>
+            </div>
+            <div id="collection">
+              <div class="outer">
+                <div id="products" class="products clearfix">
+                  <div class="row clearfix">
+                      <%= yield %>
+                  </div row>
+              </div outer>
+            </div collection> 
+          </div body clearfix>
+      </div wrapper>
   </body>
   <footer>
 

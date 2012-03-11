@@ -1,0 +1,80 @@
+div.header.clearfix {
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
+
+div.header{
+	margin: -40px;
+	border-width: 3px;
+	padding-bottom: 35px;
+	border-bottom: 3px solid #F2F2F2;
+	padding-right: 40px;
+	padding-left: 40px;
+}
+
+.header {
+	padding: 0;
+}
+
+.clearfix {
+	display: inline block;
+}
+
+.fl {
+	float: left;
+}
+
+.header h1, h2, h3, h4, h5, h6 {
+	text-transform: uppercase;
+	letter-spacing: 0em;
+	word-spacing: 0em;
+	font: normal 400 38px/1.2 'Oswald', serif;
+}
+
+#main_navigation li {
+	float: left;
+}
+
+h3 ul#links a {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 125%;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	margin-right: 5px;
+	margin-left: 5px;
+	margin-top: 2px;	
+}
+
+div#main_navigation a, div#sub_navigation a {
+	color: silver;
+	font-size: .5em;
+}
+
+div#main_navigation a{
+	font-size: 16px;
+}
+
+
+
+h3 ul#links li.active a, h3 ul#links a.active {
+	color: #212121;
+	border-top: 3px solid #212121;
+	border-bottom: 3px solid #212121;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+div.box {
+	float: right;
+	position: relative;
+}
+
+.fl {
+	float: left;
+}
+
+div.fl a {
+	color: silver;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 125%;
+}

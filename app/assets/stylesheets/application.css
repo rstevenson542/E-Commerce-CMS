@@ -8,8 +8,32 @@
  * You're free to add application-wide styles to this file and they'll appear at the top of the
  * compiled file, but it's generally better to create a new file per style scope.
  *
+ *= require_reset
  *= require_self
  *= require_tree .
- *= require_
+ *= require_header
+ *= require_body
+ *= require_product
 */
+
+body {
+	color: #A2A2A2;
+	font-size: 12px;
+	font-family: Georgia, Utopia, 'Times New Roman', Times, serif;
+	line-height: 18px;
+}
+
+.wrapper {
+	position: relative;
+	z-index: 100;
+	border: 3px solid #F2F2F2;
+	margin-top: 20px;
+	padding: 0 40px 40px;
+	width: 960px;
+	margin: 0 auto;
+}
+
+a {
+	text-decoration: none !important;
+}
 

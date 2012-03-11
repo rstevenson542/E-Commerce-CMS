@@ -1,0 +1,36 @@
+html .clearfix {
+	display: block;
+}
+
+div#sub_navigation {
+	margin-left: -40px;
+	margin-bottom: 40px;
+	margin-right: -40px;
+	padding-bottom: 25px;
+	border-bottom: 3px solid #F2F2F2;
+	margin-bottom: 20px;
+}
+
+#sub_navigation h4 {
+	font-size: 160%;
+	font-family: 'Open Sans', sans-serif;
+}
+
+div#sub_navigation ul#links {
+	padding-left: 40px;
+	padding-bottom: 15px;
+	margin-top: -25px;
+}
+
+div#sub_navigation ul li a {
+	float:left;
+}
+
+h4 ul#links a {
+	padding-top: 7px;
+	padding-bottom: 7px;
+	margin-right: 20px;
+	margin-left: 0;
+	margin-top: 2px;
+}
+
