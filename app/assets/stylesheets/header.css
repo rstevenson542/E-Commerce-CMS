@@ -54,15 +54,19 @@ div#main_navigation a{
 	font-size: 16px;
 }
 
-
-
-h3 ul#links li.active a, h3 ul#links a.active {
-	color: #212121;
-	border-top: 3px solid #212121;
-	border-bottom: 3px solid #212121;
-	padding-top: 4px;
-	padding-bottom: 4px;
+#main_navigation h3 ul li a:hover, #main_navigation h3 ul li a:active {
+	background-color: yellow;
+	border-top: 3px solid #silver;
+	border-bottom: 3px solid #silver;
 }
+
+#main_navigation h3 ul li a:active {
+	border-top: 3px solid #silver;
+	border-bottom: 3px solid #silver;
+}
+
+
+
 
 div.box {
 	float: right;

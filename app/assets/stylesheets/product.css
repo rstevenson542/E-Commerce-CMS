@@ -1,9 +1,11 @@
-
+.product {
+	
+}
 
 .products .product {
-	float: none;
-	width:225px;
-	max-width:205px;
+	float: left;
+	width:205px !important;
+	max-width:205px ;
 	margin: 0px 20px 20px 0;
 }
 
