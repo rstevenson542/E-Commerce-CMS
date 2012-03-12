@@ -1,7 +1,7 @@
 div.header.clearfix {
 	margin-top: 65px;
 	margin-bottom: 35px;
-	border-bottom: 3px solid #F2F2F2;
+	border-bottom: 3px solid #666666;
 }
 
 div.header{
@@ -63,7 +63,7 @@ div.box {
 }
 
 div.fl a {
-	color: silver;
+	color: #666666 !important;
 	font-family: 'Open Sans', sans-serif;
-	font-size: 125%;
+	font-size: 95%;
 }

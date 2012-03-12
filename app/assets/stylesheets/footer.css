@@ -6,7 +6,7 @@
 	clear: both;
 	padding: 40px 40px 120px;
 	margin-top: 20px;
-	border-top: 3px solid #F2F2F2;
+	border-top: 3px solid #666666;
 	margin-right: -40px;
 	margin-left: -40px;
 }
@@ -21,7 +21,7 @@
 	margin-bottom: 15px;
 	font-size: 100%;
 	font-family: 'Open Sans', sans-serif;
-	color: silver;
+	color: #666666;
 }
 
 .footer .block li {
@@ -44,7 +44,7 @@ div.block li {
 	clear:left;
 	float:left;
 	width: 205px;
-	border-top: 1px solid #F1F1F1;
+	border-top: 1px solid #CCCCCC;
 	font-weight: bold;
 	margin-top: 3px;
 	margin-bottom: 3px;

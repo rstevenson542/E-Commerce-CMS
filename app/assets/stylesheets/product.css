@@ -23,15 +23,15 @@
 	display: block;
 	font-family: 'Yanone Kaffeesatz', sans-serif;
 	text-align: left;
-	color: #212121 !important;
-	border-bottom: 3px solid #F1F1F1;
+	color: #666666 !important;
+	border-bottom: 3px solid #CCCCCC;
 	padding: 10px 2px 5px;
 }
 
 span.price h4 {
 	font-family: 'Economica', sans-serif;
 	text-align:right;
-	color: silver;
+	color: #99CA64;
 	margin-bottom: 5px;
 	margin-left: -10px;
 	padding-top: 10px;

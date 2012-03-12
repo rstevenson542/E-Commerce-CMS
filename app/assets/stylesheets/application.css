@@ -28,6 +28,7 @@ body {
 
 body#top {
 	background: url('black.png');
+	background-size: 1400px 900px;
 /*	background: #005B00;*/
 }
 
@@ -36,7 +37,7 @@ body#top {
 	z-index: 100;
 	height: 700px;
 	background: #FFF;
-	border: 3px solid #F2F2F2;
+	border: 3px solid #666666;
 	margin-top: 20px;
 	padding: 0 40px 40px;
 	width: 900px;

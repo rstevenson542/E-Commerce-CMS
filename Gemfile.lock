@@ -1,3 +1,13 @@
+GIT
+  remote: git://github.com/thoughtbot/paperclip.git
+  revision: 26f4d409b2a585c7708b4b33a007eb4c86b175c1
+  specs:
+    paperclip (2.7.0)
+      activerecord (>= 2.3.0)
+      activesupport (>= 2.3.2)
+      cocaine (>= 0.0.2)
+      mime-types
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -44,6 +54,7 @@ GEM
     bourbon (1.4.0)
       sass (>= 3.1)
     builder (3.0.0)
+    cocaine (0.2.1)
     coffee-rails (3.2.2)
       coffee-script (>= 2.2.0)
       railties (~> 3.2.0)
@@ -148,6 +159,7 @@ DEPENDENCIES
   coffee-rails (~> 3.2.1)
   jquery-rails
   meta_search (>= 1.1.0.pre)
+  paperclip!
   rails (= 3.2.1)
   sass-rails (~> 3.2.3)
   sqlite3
