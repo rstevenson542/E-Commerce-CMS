@@ -16,6 +16,7 @@
  *= require_product
  *= require_footer
  *= require_show
+ *= require_show-description
 */
 
 
@@ -35,7 +36,6 @@ body#top {
 .wrapper {
 	position: relative;
 	z-index: 100;
-	height: 700px;
 	background: #FFF;
 	border: 3px solid #666666;
 	margin-top: 20px;

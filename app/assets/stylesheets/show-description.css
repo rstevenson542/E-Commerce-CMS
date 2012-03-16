@@ -1,0 +1,46 @@
+.banner h2 {
+	padding-top: 0px;
+	border-top: none;
+	border-bottom: none;
+	text-align: left;
+	color: #424242;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 30px;
+}
+
+.product .banner .price {
+	font-size: 22px;
+	font-family: 'Economica', sans-serif;
+	color: #99CA64;
+	line-height: 42px;
+}
+
+form.variants.clearfix {
+	padding: 10px 0;
+}
+
+div.select.clearfix {
+	border-top: 1px solid #D5D5D5;
+	border-bottom: 1px solid #D5D5D5;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-weight: 250;
+}
+
+div.purchase.clearfix {
+	padding-top: 10px;
+}
+
+div.description {
+	padding: 10px 0;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-weight: 200;
+	
+}
+
+.banner div.details p {
+	margin-bottom: 15px;
+}

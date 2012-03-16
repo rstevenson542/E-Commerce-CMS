@@ -1,5 +1,5 @@
 div.header.clearfix {
-	margin-top: 65px;
+	margin-top: 35px;
 	margin-bottom: 35px;
 	border-bottom: 3px solid #666666;
 }
@@ -7,7 +7,7 @@ div.header.clearfix {
 div.header{
 	margin: -40px;
 	border-width: 3px;
-	padding-bottom: 35px;
+	padding-bottom: 45px;
 	
 	padding-right: 40px;
 	padding-left: 40px;

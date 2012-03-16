@@ -4,7 +4,8 @@
       <div id="products" class="products clearfix">
         <div class="row clearfix">
           <div class="product">  
-            <div class="image">        
+            <div class="image"> 
+              <%= image_tag product.image.url(:medium) %>       
             </div image>
               <div class="details">
                 <a><%= link_to product.name, shop_product_path(@shop, product) %>

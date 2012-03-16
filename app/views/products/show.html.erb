@@ -3,36 +3,11 @@
     <div class="product">
         <div class="banner clearfix">
             <div class="image">
-              <a>"Insert Image Here"</a>
-                <div class="Thumbs clearfix">
-                  <a>"Insert Thumb Here"</a>
-                </div thumb>
+              <a><%=image_tag @product.image.url(:large) %> </a>
             </div image>
-            <div class="details">
-                <h2>
-                    <%= @product.name %>
-                </h2>
-                <span class="price">
-                    <%= number_to_currency @product.price %>
-                </span>
-                <form action="">
-                    <div class="select clearfix">
-                      <label>Size</label>
-                      <div class="selector-wrapper">
-                        
-                      </div selector>
-                    </div select>
-                    <div class="purchase clearfix">
-                      <span>
-                         <%= button_to "Buy Me!", %>
-                      </span>
-                    </div purchase>
-                </form>
-                <div class="description">
-                  <p><%= @product.description %></p>
-                  <h3>All items are shipped same day. Free next day air.</h3>
-                </div>
-            </div details>
+            
+            <%= render 'shared/description' %>
+            
         </div banner>
           <div class="outer">
       

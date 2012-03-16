@@ -1,0 +1,21 @@
+<div class="details">
+    <h2><%= @product.name %></h2>
+   
+    <span class="price"><%= number_to_currency @product.price %></span>
+    
+    <form class="variants clearfix">
+        
+        <div class="select clearfix">
+          <label>Size</label>
+          
+        </div select>
+        <div class="purchase clearfix">
+          <span><%= button_to "Buy Me!", %></span>
+        </div><!-- /.purchase -->
+    </form>
+    
+    <div class="description">
+      <p><%= @product.description %></p>
+      <p>All items are shipped same day. Free next day air.</p>
+    </div><!-- /.description -->
+</div><!-- /.details -->

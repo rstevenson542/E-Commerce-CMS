@@ -14,7 +14,7 @@ div.banner {
 	position: relative;
 }
 
-#product .banner > div.image {
+.banner div.image {
 	float: left;
 	padding: 70px 0;
 }
@@ -43,11 +43,13 @@ a {
 
 #product .banner > div.details {
 	float:right;
+	width: 480px;
 	padding-top: 70px;
 }
 
 .banner div.details {
-	width: 510px;
-	padding: 50px 20px;
+	width: 480px;
+	float: right;
 	line-height: 22px;
+	padding: 70px 20px;
 }
