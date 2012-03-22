@@ -5,7 +5,7 @@
         <div class="row clearfix">
           <div class="product">  
             <div class="image"> 
-              <%= image_tag product.image.url(:medium) %>       
+              <%= link_to (image_tag product.image.url(:medium)), shop_product_url(@shop, product) %>       
             </div image>
               <div class="details">
                 <a><%= link_to product.name, shop_product_path(@shop, product) %>
