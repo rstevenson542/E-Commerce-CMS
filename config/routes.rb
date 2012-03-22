@@ -3,6 +3,8 @@ ShopifyApp::Application.routes.draw do
 
   devise_for :admin_users, ActiveAdmin::Devise.config
   
+
+  
   root :to => 'shops#index'
   
   resources :order_items
