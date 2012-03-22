@@ -9,6 +9,8 @@ ShopifyApp::Application.routes.draw do
   
   resources :order_items
   resources :orders
+  resources :carts
+  resources :line_items
 
 
   resources :shops do
