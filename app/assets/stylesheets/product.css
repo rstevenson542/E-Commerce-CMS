@@ -22,6 +22,8 @@
 .products .product .details a{
 	display: block;
 	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 15px;
+	font-weight: 3 50;
 	text-align: left;
 	color: #666666 !important;
 	border-bottom: 3px solid #CCCCCC;

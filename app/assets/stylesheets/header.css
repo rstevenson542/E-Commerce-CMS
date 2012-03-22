@@ -7,7 +7,7 @@ div.header.clearfix {
 div.header{
 	margin: -40px;
 	border-width: 3px;
-	padding-bottom: 45px;
+	padding-bottom: 70px;
 	
 	padding-right: 40px;
 	padding-left: 40px;
@@ -67,3 +67,15 @@ div.fl a {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 95%;
 }
+
+.logo {
+	padding-left: 15px !important;
+}
+
+.logo a {
+	width: 150px;
+}
+
+#main_navigation ol, ul {
+	padding-top: 15px !important;
+} 

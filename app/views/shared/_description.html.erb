@@ -1,5 +1,5 @@
 <div class="details">
-    <h2><%= @product.name %></h2>
+    <h2><%= @product.brand %> <%= @product.name %></h2>
    
     <span class="price"><%= number_to_currency @product.price %></span>
     
@@ -10,7 +10,9 @@
           
         </div select>
         <div class="purchase clearfix">
-          <span><%= button_to "Buy Me!", %></span>
+          <span>
+          <%= button_to "Add to Cart", order_items_url(:product_id => product.id) %>
+          </span>
         </div><!-- /.purchase -->
     </form>
     
