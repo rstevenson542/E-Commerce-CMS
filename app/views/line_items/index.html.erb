@@ -1,5 +1,9 @@
 
-<% if current_cart.line_items.any? %>
-  <h1>Hello</h1>
   
-<% end %>
+  <% current_cart.line_items.each do |item| %>
+    <li>
+        <%= item.product.name %>
+        <%= item.product.price %>
+    </li>
+    <% end %>
+  

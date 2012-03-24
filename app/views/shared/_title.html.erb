@@ -11,7 +11,12 @@
         
                   <li><%= link_to "Shop"%></li>
                   <li><a href>Blog</a></li>
-                  <li><a href>About</a></li>
+                  <% if session[:user_id].present? %>
+                    <li><%= link_to "Sign_out", logout_url %></li>
+                  <% else %>
+                    <li><%= link_to 'Sign Up', new_user_url %></li>
+                    <li><%= link_to 'Sign In', new_session_url %></li>
+                  <% end %>
               </ul links></h3>
               
   </div><!--/.main_navigation-->
@@ -19,7 +24,7 @@
   <div id="cart">
     <div class="box">
       <div class="fl">
-        <span class="value"><h3><%= link_to "Cart", line_items_url %></h3></span>
+          <span class="value"><h3><%= link_to "Cart", line_items_path %></h3></span>
       </div>
     
     </div><!-- /.box -->

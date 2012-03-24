@@ -4,6 +4,7 @@ ShopifyApp::Application.routes.draw do
   devise_for :admin_users, ActiveAdmin::Devise.config
   
 
+  get '/logout' => "sessions#destroy", as: :logout
   
   root :to => 'shops#index'
   
@@ -11,6 +12,8 @@ ShopifyApp::Application.routes.draw do
   resources :orders
   resources :carts
   resources :line_items
+  resources :users
+  resources :sessions
 
 
   resources :shops do

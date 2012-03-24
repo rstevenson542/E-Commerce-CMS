@@ -21,7 +21,7 @@
 
 .products .product .details a{
 	display: block;
-	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-family: 'Yanone Kaffeesatz', sans-serif !important;
 	font-size: 15px;
 	font-weight: 3 50;
 	text-align: left;
@@ -41,6 +41,6 @@ span.price h4 {
 	margin-top: -35px;
 	margin-right: -10px;
 	padding-right: 10px;
-	font-size: 1.2em;
+	font-size: 14px;
 }
 

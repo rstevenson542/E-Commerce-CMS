@@ -3,18 +3,16 @@
    
     <span class="price"><%= number_to_currency @product.price %></span>
     
-    <form class="variants clearfix">
         
-        <div class="select clearfix">
-          <label>Size</label>
-          
-        </div select>
-        <div class="purchase clearfix">
-          <span>
-          <%= button_to "Add to Cart", line_items_path(:product_id => @product.id) %>
-          </span>
-        </div><!-- /.purchase -->
-    </form>
+    <div class="select clearfix">
+      <label>Size</label>
+      
+    </div select>
+    <div class="purchase clearfix">
+      <span>
+      <%= button_to("Add to Cart", {:controller => "line_items", :action => "create", :product_id => @product.id, :shop_id => params[:shop_id]}) %>
+      </span>
+    </div><!-- /.purchase -->
     
     <div class="description">
       <p><%= @product.description %></p>

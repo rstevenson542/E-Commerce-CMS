@@ -2,6 +2,7 @@ class Product < ActiveRecord::Base
   belongs_to :collection
   belongs_to :shop
   has_many :line_items
+  
   has_attached_file :image, :styles => { :thumb => '185x185#', 
                                          :medium => '200x200#',
                                          :large => '370x370#'}

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120322042707) do
+ActiveRecord::Schema.define(:version => 20120323060535) do
 
   create_table "active_admin_comments", :force => true do |t|
     t.string   "resource_id",   :null => false
@@ -47,9 +47,10 @@ ActiveRecord::Schema.define(:version => 20120322042707) do
   add_index "admin_users", ["reset_password_token"], :name => "index_admin_users_on_reset_password_token", :unique => true
 
   create_table "carts", :force => true do |t|
-    t.integer  "line_item_id"
-    t.datetime "created_at",   :null => false
-    t.datetime "updated_at",   :null => false
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+    t.integer  "user_id"
+    t.integer  "shop_id"
   end
 
   create_table "collections", :force => true do |t|
@@ -65,6 +66,7 @@ ActiveRecord::Schema.define(:version => 20120322042707) do
     t.integer  "cart_id"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
+    t.integer  "shop_id"
   end
 
   create_table "order_items", :force => true do |t|
@@ -78,6 +80,7 @@ ActiveRecord::Schema.define(:version => 20120322042707) do
     t.string   "name"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
+    t.integer  "shop_id"
   end
 
   create_table "products", :force => true do |t|
@@ -104,6 +107,15 @@ ActiveRecord::Schema.define(:version => 20120322042707) do
     t.datetime "updated_at",    :null => false
     t.string   "name"
     t.string   "permalink"
+  end
+
+  create_table "users", :force => true do |t|
+    t.string   "name"
+    t.string   "email"
+    t.string   "password_digest"
+    t.datetime "created_at",      :null => false
+    t.datetime "updated_at",      :null => false
+    t.integer  "shop_id"
   end
 
 end

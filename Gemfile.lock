@@ -156,6 +156,7 @@ PLATFORMS
 
 DEPENDENCIES
   activeadmin
+  bcrypt-ruby
   coffee-rails (~> 3.2.1)
   jquery-rails
   meta_search (>= 1.1.0.pre)
