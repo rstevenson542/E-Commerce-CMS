@@ -1,0 +1,27 @@
+.form {
+	width: 400px;
+	margin-left: 15px;
+}
+
+form label {  
+    margin-left: 10px;  
+    color: #999999;  
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+    }
+
+input, textarea {  
+    box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;  
+    -moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;  
+    -webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;  
+	background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #EEEEEE), to(#FFFFFF));  
+ 	background: -moz-linear-gradient(top, #FFFFFF, #000000 1px, #FFFFFF 25px);
+    }
+
+input:hover, textarea:hover,  
+input:focus, textarea:focus {  
+   -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 8px;  
+    }
+
+.actions {
+	margin-left: ;
+}

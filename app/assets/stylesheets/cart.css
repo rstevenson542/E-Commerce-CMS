@@ -1,0 +1,41 @@
+.zebra {
+	font-family: 'open sans', sans-serif;
+	font-size: 12px;
+	width: 700px;
+	text-align: center;
+	border-collapse: collapse;
+	margin: 20px;
+	margin-left: 100px;
+}
+
+.zebra th {
+	font-size: 14px;
+	font-weight: normal;
+	padding: 20px 8px;
+}
+
+.zebra td {
+	vertical-align: middle;
+	color:gray;
+	padding: 8px;
+	border-bottom: 1px solid #ECEBE;
+	
+}
+
+.odd {
+	background-color: #ECEBEB;
+}
+
+#cart_total {
+	font-size: 16px;
+	font-weight: bold;
+	font-family: 'Economica', sans-serif;
+	color: #99CA64;
+	line-height: 42px;
+}
+
+#table_title th{
+	font-family: 'Economica', sans-serif;
+	font-size: 25px;
+	text-transform: capitalize;
+}

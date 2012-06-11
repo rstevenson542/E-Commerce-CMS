@@ -17,6 +17,8 @@
  *= require_footer
  *= require_show
  *= require_show-description
+ *= require_cart
+ *= require_form
 */
 
 
@@ -28,7 +30,7 @@ body {
 }
 
 body#top {
-	background: url('black.png');
+	background-color: white;
 	background-size: 1400px 900px;
 /*	background: #005B00;*/
 }

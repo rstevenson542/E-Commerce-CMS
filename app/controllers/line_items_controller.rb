@@ -11,6 +11,10 @@ class LineItemsController < ApplicationController
   end
   
   def destroy
+    shop = Shop.find_by_permalink(params[:shop_id])
+    line_item = LineItem.find(params[:id])
+    line_item.destroy
+    redirect_to line_items_path
   end
   
 

@@ -4,8 +4,8 @@ class ApplicationController < ActionController::Base
   helper_method :current_cart
   
   def require_login
-    if session[:user_id].blank?s
-      redirect_to root_url, :notice => "You need to sign in first"
+    if session[:user_id].blank?
+      redirect_to new_session_path, :notice => "You need to sign in first"
       return false
     end
     @user = User.find(session[:user_id])

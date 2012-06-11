@@ -1,9 +1,31 @@
+<% if current_cart.line_items.present? %>
 
-  
-  <% current_cart.line_items.each do |item| %>
-    <li>
-        <%= item.product.name %>
-        <%= item.product.price %>
-    </li>
-    <% end %>
-  
+    <table class="zebra">
+      <tr id="table_title">
+        <th></th>
+        <th>Item</th>
+        <th>Total</th>
+        <th>Remove</th>
+      </tr>
+    <% current_cart.line_items.each do |item| %>
+      <tr class="<%= cycle('odd', 'even') %>">
+        <td><%= image_tag item.product.image.url(:thumb)%></td>
+        <td><%= item.product.brand %> <%= item.product.name %></td>
+        <td><%= number_to_currency item.product.price %></td>
+        <td><%= link_to "Remove", line_item_url(item), :method => :delete %></td>
+      </tr>
+      <% end %>
+      <tr>
+        <td></td>
+        <td></td>
+        <td id="cart_total"><%= number_to_currency(Cart.find(session[:cart_id]).total)%></td>
+        <td><%= link_to 'Checkout', new_order_url %></td>
+      </tr>
+    </table>
+
+<% else %>
+  <div class="empty_cart">
+    <h1>Your Cart is Empty</h1>
+    <h2>Perhaps you'd like to check out some of our products below</h2>
+  </div><!--/.empty_cart-->
+<% end %>

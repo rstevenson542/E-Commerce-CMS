@@ -10,7 +10,7 @@
       <ul id="links">
         
                   <li><%= link_to "Shop"%></li>
-                  <li><a href>Blog</a></li>
+                  <li><%= link_to "Blog", posts_path %></li>
                   <% if session[:user_id].present? %>
                     <li><%= link_to "Sign_out", logout_url %></li>
                   <% else %>
@@ -24,7 +24,7 @@
   <div id="cart">
     <div class="box">
       <div class="fl">
-          <span class="value"><h3><%= link_to "Cart", line_items_path %></h3></span>
+          <span class="value"><h3><%= link_to "Cart", line_items_path %> <a>(<%= current_cart.line_items.count%>)</a></h3></span>
       </div>
     
     </div><!-- /.box -->
